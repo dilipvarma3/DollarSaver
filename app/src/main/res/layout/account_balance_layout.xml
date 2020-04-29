@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget"
+        android:textColorHint="@color/colorHint"
+        android:textColor="@color/colorInput"
+        android:textSize="30sp"
+        android:layout_marginTop="110dp"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:id="@+id/allocated_budget"
+        android:background="@drawable/textbox_back"
+        android:padding="5dp"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="@color/colorHint"
+        android:textColor="@color/colorInput"
+        android:textSize="22sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expenses"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/expenses"
+            android:background="@drawable/textbox_back"
+            android:padding="5dp"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/balance_amount"
+            android:background="@drawable/textbox_back"
+            android:padding="5dp"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="22sp"
+        android:id="@+id/calculate"
+        android:background="@drawable/loginbutton_back"
+        android:text="CALCULATE"
+        android:textColor="@color/colorInput"/>
+</LinearLayout>
